@@ -209,6 +209,7 @@ const RatingStars = ({ rating }: { rating: number }) => {
 
 
 export default function Page() {
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Navigation logic for next/previous images
@@ -225,6 +226,7 @@ export default function Page() {
   };
 
   return (
+
     <div>
       <Navbar />
       <Head>
@@ -455,17 +457,14 @@ export default function Page() {
    <Image src={discordLogo} alt="AWS Logo" width={76} height={72} />
 </nav>
       </section>
-         
+               
       <nav className="text-black py-4 font-montserrat">
-  <div className="container mx-auto flex items-center justify-between">
-    {/* Left: H5 Text */}
+  <div className="container mx-auto flex items-center justify-between ">
     <div>
       <h5 className="text-2xl font-bold ml-72">Bandage</h5>
     </div>
 
-    {/* Right: Social Icons */}
     <div className="flex items-center space-x-6 mr-48">
-      {/* Facebook SVG */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -478,7 +477,6 @@ export default function Page() {
         />
       </svg>
 
-      {/* Instagram SVG */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -491,7 +489,6 @@ export default function Page() {
         />
       </svg>
 
-      {/* Twitter SVG */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -511,9 +508,8 @@ export default function Page() {
 </div>
 
 <div className="container mx-auto p-2 ml-8">
-  {/* Flex container for 5 columns */}
   <div className="flex justify-between">
-    {/* Column 1 */}
+  
     <div className="flex-1 flex flex-col space-y-2 text-center">
       <div><h3 className='font-bold'><a href="#" >Company Info </a></h3></div>
       <div><a href="#">About Us</a></div>
@@ -522,7 +518,6 @@ export default function Page() {
       <div><a href="#">Blog</a></div>
     </div>
 
-    {/* Column 2 */}
     <div className="flex-1 flex flex-col space-y-2 text-center">
       <div><h3 className='font-bold'><a href="#">Legal</a></h3></div>
       <div><a href="#">About Us</a></div>
@@ -531,8 +526,7 @@ export default function Page() {
       <div><a href="#">Blog</a></div>
     </div>
 
-    {/* Column 3 */}
-    <div className="flex-1 flex flex-col space-y-2 text-center">
+    <div className="flex-1 flex flex-col space-y-2 text-center ">
     <div><h3 className='font-bold'><a href="#">Features</a></h3></div>
       <div><a href="#">About Us</a></div>
       <div><a href="#">Carrier</a></div>
@@ -540,7 +534,6 @@ export default function Page() {
       <div><a href="#">Blog</a></div>
     </div>
 
-    {/* Column 4 */}
     <div className="flex-1 flex flex-col space-y-2 text-center">
     <div><h3 className='font-bold'><a href="#">Resources</a></h3></div>
       <div><a href="#">About Us</a></div>
@@ -549,26 +542,20 @@ export default function Page() {
       <div><a href="#">Blog</a></div>
     </div>
 
-    {/* Column 5 */}
 <div className="flex-1 flex flex-col space-y-4 text-center">
-  {/* Heading */}
   <div>
     <h3 className="font-bold text-lg">Get in Touch</h3>
   </div>
 
-  {/* Email Input and Subscribe Button */}
   <div className="flex items-center justify-center space-x-2">
-    <input
-      type="email"
-      placeholder="Your Email"
-      className="w-2/3 px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-blue-500"
-    />
+  <span className="w-2/3 px-4 py-2 border border-gray-300 block bg-gray-100 text-gray-300">
+  Your Email
+</span>
     <button className="px-4 py-2 bg-blue-500 text-white font-semibold  hover:bg-blue-600">
       Subscribe
     </button>
   </div>
 
-  {/* Bottom Text */}
   <div className="text-sm text-gray-500 mt-2">
     We'll never share your email with anyone else.
   </div>
