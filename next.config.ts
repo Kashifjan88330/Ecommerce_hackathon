@@ -8,6 +8,13 @@ export default nextConfig;
 // next.config.js
 module.exports = {
   images: {
-    domains: ['s3-alpha-sig.figma.com', 'via.placeholder.com'], 
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 's3-alpha-sig.figma.com',
+        pathname: '/img/**',
+      },
+    ],
   },
 };
+
