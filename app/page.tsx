@@ -4,10 +4,8 @@
 import hooliLogo from '../public/hooli.png';
 import lyftLogo from '../public/lyft.png';
 import springLogo from '../public/fa-brands-3.png';
-import stripeLogo from '../public/stripe.png';
 import awsLogo from '../public/aws.png';
 import discordLogo from '../public/discord.png';
-
 import { useState } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
