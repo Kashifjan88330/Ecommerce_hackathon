@@ -346,7 +346,7 @@ export default function Page() {
       <div className="flex items-start justify-between border rounded-lg p-6 shadow-lg">
   {/* Image Section */}
   <div className="flex-1 flex items-center justify-center">
-    <img
+    <Image
       src="https://s3-alpha-sig.figma.com/img/8b0c/0f76/c949a2cffacf01d40c82241e905719cb?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BBs87soJ9tfLl8T9KH0Y29KIlfQJ72pPFe08ROLWLPg9MTVdW31xCnov7PNexR~8x6KE7RAoWU3KNAeMcPRjmaLJDF2piavrKnBt1prigrDGDOWPiIcqrf8TuHMdG7NqgrtAmfEcUwIQsEirPmBWLNTPnXN4YeLVZKqHt07VLe~vEXuHKi9byCq5Tm7~IVbio2-oIRswVXK39OkMzlDjuNhmJclmb7Y2LX5tubt8gUSZ8GiCYcA~WTgAQUZq~J570lE1VqsXleGZVlOKI3Z7RgU8sKPUT2QoL-46C8QDTSDvcO3KEFO-RIxBFS9buYuiwlswng8QAZHiml7OUZ2cCg__"
       alt="Image"
       className="w-[392px] h-[332px] object-cover rounded-lg"
@@ -421,7 +421,7 @@ export default function Page() {
               key={product.id}
               className="border rounded-lg overflow-hidden shadow-md bg-white"
             >
-              <img
+              <Image
                 src={product.image}
                 alt={product.name}
                 className="w-full h-48 object-cover"
@@ -555,7 +555,7 @@ export default function Page() {
   </div>
 
   <div className="text-sm text-gray-500 mt-2">
-    We'll never share your email with anyone else.
+    We will never share your email with anyone else.
   </div>
 </div>
 
